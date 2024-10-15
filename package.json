@@ -17,6 +17,8 @@
 		"@iconify-icons/material-symbols": "^1.2.58",
 		"@iconify/react": "^5.0.1",
 		"@rsbuild/core": "1.0.4",
+		"@rspack/core": "1.0.11",
+		"@rspack/cli": "1.0.11",
 		"@rsbuild/plugin-react": "1.0.2",
 		"esbuild": "^0.24.0",
 		"lint-staged": "^15.2.10",

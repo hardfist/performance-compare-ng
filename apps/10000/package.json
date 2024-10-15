@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:rspack": "rspack build",
     "build:vite": "vite build",
     "build:farm": "farm build",
     "build:rsbuild": "rsbuild build",
