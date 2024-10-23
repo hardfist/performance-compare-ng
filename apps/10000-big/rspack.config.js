@@ -2,15 +2,20 @@
  * @type {import('@rspack/core').Configuration}
  */
 module.exports =  {
+    mode:'production',
+    devtool:false,
     context: __dirname,
     entry: {
         main: './src/index.jsx',
+    },
+    experiments: {
+        css:true
     },
     resolve: {
         extensions: ['.jsx', '...']
     },
     optimization: {
-        minimize:false
+        minimize:false,
     },
     module: {
         rules: [
