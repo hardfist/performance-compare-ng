@@ -9,3 +9,7 @@ ReactDom.createRoot(document.getElementById("root")).render(
 	</React.StrictMode>
 );
 
+
+function newFunction() {
+    console.log('This is a new function');
+}
