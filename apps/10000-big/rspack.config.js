@@ -26,6 +26,7 @@ module.exports =  {
                         loader: 'builtin:swc-loader',
                         options: {
                             jsc: {
+                              target: 'EsNext',
                               parser: {
                                 syntax: 'ecmascript',
                                 jsx: true,
