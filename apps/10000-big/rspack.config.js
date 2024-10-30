@@ -26,6 +26,9 @@ module.exports =  {
                         loader: 'builtin:swc-loader',
                         options: {
                             jsc: {
+                              experimental: {
+                                disableAllLints:true
+                              },
                               target: 'EsNext',
                               parser: {
                                 syntax: 'ecmascript',
